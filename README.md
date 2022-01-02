@@ -15,8 +15,8 @@
 未定
 
 使用技術
-ruby3.1.0　（仮）
-ruby on rails 7.0(仮)
+ruby3.0.2　（仮）
+ruby on rails 6.14(仮)
 heroku or aws or netlify(仮）
 
 
