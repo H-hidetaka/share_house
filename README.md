@@ -16,6 +16,5 @@ ruby3.0.2　（仮）
 ruby on rails 6.14(仮)
 heroku or aws or netlify(仮）
 
-
-
-
+# 画面遷移図
+https://xd.adobe.com/view/18305692-de25-45d9-b28e-95021c66cf2d-4d63/
