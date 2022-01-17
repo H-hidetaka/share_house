@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  get 'top_pages/home'
+  get 'top_pages/help'
+  get  'top_pages/home'
+  root 'application#hello'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get 'pages/home'
 end
-  
+      
