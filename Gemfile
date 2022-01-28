@@ -29,6 +29,7 @@ gem 'binding_of_caller'
 gem 'rack-cors'
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'devise-i18n',        '1.9.4'
+gem 'devise-i18n-views'
 gem 'omniauth'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
