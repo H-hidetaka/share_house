@@ -12,7 +12,7 @@ module ShareHouse
     config.load_defaults 6.1
 
     config.generators do |g|
-      g.skip_routes true
+      # g.skip_routes true
       g.assets false
       g.helper false
       g.test_framework :rspec,
