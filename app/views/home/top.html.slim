@@ -1,0 +1,7 @@
+h1 ここはトップページです。
+/ li = link_to 'ログイン画面', sign_in_path
+li = link_to 'ユーザー登録', new_user_registration_path
+li = link_to 'ログイン', new_user_session_path
+
+li = link_to 'ログアウト',destroy_user_session_path, method: :delete
+li = link_to 'プロフィール編集',users_show_path, method: :get

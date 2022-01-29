@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     registrations: 'users/registrations'
   }
-  get 'users/show'
-  # devise_scope :user do
-  #   root "users/sessions#new"
-  # end
+  devise_scope :user do
+    root "home#top"
+    get '/user/sign_out' => 'devise/sessions#destroy'
+  end
+  get "users/show" => "users#show"
+  get 'top' => 'home#top'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -1,4 +1,8 @@
+<div class="title-logo">
+    <%= link_to src= url("/Users/hidetaka/share_house/app/assets/images/logo_o03.png"), top_path %>
+</div>
 <div class="box">
+
   <div class="box-inner">
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <h1>ログイン</h1>
@@ -20,7 +24,7 @@
       <div class="box-login">
         <%= f.submit "ログイン" %>
         <div class="legal-text">
-          続行することで、Hogezonの
+          続行することで、ShareHouseLogの
           <%= link_to "利用規約", "#" %>
           および
           <%= link_to "プライバシー規約", "#" %>
