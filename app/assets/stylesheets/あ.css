@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -5,12 +6,15 @@
 }
 
 .title-logo {
-  width: 50px;
-  height: 50px;
-  margin: 60px auto 0;
-  border-radius: 4px;
-  border: 1px #ddd solid;
-  src: local();
+  top: 14px;
+  left: 15px;
+  width: 36px;
+  height: 36px;
+}
+
+.title-layout {
+  background: transparent url("img/ノートのアイコン素材.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .box {
